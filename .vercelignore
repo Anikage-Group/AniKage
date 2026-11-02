@@ -1,0 +1,41 @@
+# Source files not needed in deployment
+.git/
+.gitignore
+.vercelignore
+README.md
+LICENSE
+CHANGELOG.md
+
+# Development files
+.devcontainer/
+.vscode/
+.idea/
+
+# Test files
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+__tests__/
+__mocks__/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+
+# Source maps
+*.map
+
+# Scripts
+scripts/
+
+# Local environment
+.env.local
+.env.*.local
+.env
+.env.*
+
+images/
+node_modules/
