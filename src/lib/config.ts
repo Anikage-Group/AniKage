@@ -7,7 +7,7 @@ import { env } from '$env/dynamic/public';
  * This module is browser-safe: it must never import `$env/dynamic/private`.
  * Server-only secrets live in `src/lib/server/config.ts`.
  */
-export const API_URL: string = (env.PUBLIC_API_URL ?? 'https://api.anikage.workers.dev').replace(
+export const API_URL: string = (env.PUBLIC_API_URL).replace(
 	/\/+$/,
 	''
 );
